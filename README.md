@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! 🚀 This site showcases my projects, skills, and contact information in a sleek and professional design.  
 
 ## 🔗 Live Demo  
-👉 [Visit My Portfolio](YOUR_GITHUB_PAGES_LINK)  
+👉 [Visit My Portfolio](https://narayanjagtap.github.io/NarayanaPortfolio/)  
 
 ---
 
