@@ -36,4 +36,4 @@ I love solving coding challenges, building full-stack applications, and continuo
 ---
 
 ## 📸 OutPut | [Live Demo](https://narayanjagtap.github.io/NarayanaPortfolio/)
-![Amazon Clone](Images/Amazon.png)
+![Portfolio](images/ss.png)
