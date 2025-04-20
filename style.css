@@ -560,6 +560,26 @@ section .title::after {
 
 Media Queries */
 
+
+@media (max-width: 947px) {
+  .about .about-content .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .about-content .left,
+  .about .about-content .right {
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about .about-content .left img {
+    width: 90%;
+    height: auto;
+  }
+}
+
 @media (max-width: 1300px) {
   .home .max-width {
     margin-left: 0px;
