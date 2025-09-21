@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!-- add icon link -->
+        <link rel="icon" href="images/NJ.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#about">Naraya<span>na.</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#mywork" class="menu-btn">Recent Projects</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Narayan Jagtap</div>
+          <div class="text-3">And I'm a <span class="typing"></span></div>
+          <a href="#mywork">See my work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="row">
+            <div class="column left">
+              <img src="images/Me2.png" alt="Profile Picture" />
+            </div>
+            <div class="column right">
+              <div class="text">A Passionate Full Stack Developer</div>
+              <p>
+                My name is <strong>Narayan Jagtap</strong>, and I have completed my BE 
+                in information technology from <em>Savitribai Phule Pune University (SPPU)</em>. 
+                During my academics, I worked on several Java-based projects, which helped me gain hands-on experience with <b>Core Java</b>, 
+                <b>JDBC</b>, <b>Servlets</b>, <b>Hibernate</b>, <b>Spring</b>, <b>Spring Boot</b>, <b>React JS</b>,
+                <b>REST APIs</b>, and database management using <b>SQL</b>, along with front-end technologies such 
+                as <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
+                I enjoy building complete end-to-end applications and solving real-world problems using my 
+                full-stack development skills. I am now looking forward to starting my career as a 
+                Java Full Stack Developer, where I can apply my skills, learn from real-time challenges, 
+                and contribute to the growth of the organization.
+              </p>
+              <p>
+                Beyond coding, I enjoy <b>reading</b> and <b>traveling</b>. Traveling allows me to explore different 
+                cultures and perspectives, which enhances creativity and personal growth.
+              </p>
+              <a href="images/resume.pdf" download>
+                Download CV 
+                <img src="images/download.gif" alt="Download GIF" width="20" height="20" style="vertical-align: middle; margin-right: 5px;">
+            </a>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <!-- My Work Section -->
+    <section class="mywork" id="mywork">
+      <div class="max-width">
+        <h2 class="title">Recent Projects</h2>
+        <div class="mywork-content">
+
+
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/Gallery.png"
+                alt="ImageGalleryProject"
+                class="project-img"
+              />
+              <div class="text"><b>Image Gallery Project</b></div>
+              <p>
+                This is a web-based Java application using <b>JSP, Servlets, and MySQL</b> that allows users to <b>upload, view, delete and manage</b> images with <b>authentication</b>, <b>pagination</b>, and profile management. It follows the <b>MVC architecture</b>, ensuring scalability, security, and efficient database interaction. 🚀
+              </p>
+              <a
+                href="https://github.com/narayanjagtap/Image-Gallery-Project.git"
+                class="project-link"
+                target="_blank"
+                >View Project <img src="images/maximize.gif" alt="Maximize GIF" width="20" height="20" style="vertical-align: -webkit-baseline-middle; margin-right: 5px; height: 20px; width: 20px;">
+                </a>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/Home.png"
+                alt="Our Project"
+                class="project-img"
+              />
+              <div class="text"><b>Note Taker</b></div>
+              <p>
+                Note Taker is a simple web-based application that allows users to <b>create, edit, delete, and manage</b> notes efficiently. It is built using <b>Java (JSP & Servlets), Hibernate, MySQL, Bootstrap, and Maven</b>. This project follows the <b>MVC</b> architecture and provides a user-friendly interface for organizing notes. 🚀
+              </p>
+              <a href="https://github.com/narayanjagtap/Note-Taker-Project.git" class="project-link" target="_blank">
+                View Project 
+                <img src="images/maximize.gif" alt="Maximize GIF" width="20" height="20" style="vertical-align: -webkit-baseline-middle; margin-right: 5px; height: 20px; width: 20px;">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/Thymeleaf.png"
+                alt="Our Project"
+                class="project-img"
+              />
+              <div class="text"><b>Registration And Login Project Thymeleaf SpringDataJPA</b></div>
+              <p>
+                This is a web-based user authentication system that allows users to <b>register, log in, and view</b> their profiles. It is built using <b>Spring Boot, Thymeleaf, Spring Data JPA, MySQL, and Maven.</b>
+              </p>
+              <a href="https://github.com/narayanjagtap/RegistrationAndLoginProject-Thymeleaf-SpringDataJPA.git" class="project-link" target="_blank">
+                View Project 
+                <img src="images/maximize.gif" alt="Maximize GIF" width="20" height="20" style="vertical-align: -webkit-baseline-middle; margin-right: 5px; height: 20px; width: 20px;">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/image.png"
+                alt="CustomerManagementPortal"
+                class="project-img"
+              />
+              <div class="text"><b>Customer Management Portal</b></div>
+              <p>
+                This is a Java <b>MVC</b> (Model-View-Controller) web application built
+                using <b>JSP and JDBC</b>. It allows users to <b>add, view, edit, and
+                delete</b> customer records from a <b>MySQL</b> database. The application
+                is designed for managing customer details in a restaurant
+                setting.
+              </p>
+              <a
+                href="https://github.com/narayanjagtap/CustomerManagementPortal-SimpleMVCproject.git"
+                class="project-link"
+                target="_blank"
+                >View Project <img src="images/maximize.gif" alt="Maximize GIF" width="20" height="20" style="vertical-align: -webkit-baseline-middle; margin-right: 5px; height: 20px; width: 20px;">
+                </a>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <div class="box">
+              <img
+                src="path-to-ecommerce-image2.jpg"
+                alt="Our Project"
+                class="project-img"
+              />
+              <div class="text"><b>Project 2</b></div>
+              <p>
+                This website is....
+              </p>
+              <a href="https://link-to-project1.com" class="project-link" target="_blank">
+                View Project 
+                <img src="images/maximize.gif" alt="Maximize GIF" width="20" height="20" style="vertical-align: -webkit-baseline-middle; margin-right: 5px; height: 20px; width: 20px;">
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">My Skills</h2>
+        <p class="description">
+          I am deeply committed to my professional and personal growth,
+          constantly seeking opportunities to expand and refine my expertise. I
+          thrive in dynamic environments that challenge me to elevate my
+          skillset continuously.
+        </p>
+        <div class="skills-grid">
+          <div class="skill">
+            <img src="images/java.png" alt="Java" />
+            <p>Java</p>
+          </div>
+          <div class="skill">
+            <img src="images/Spring.png" alt="Spring" />
+            <p>Spring</p>
+          </div>
+          <div class="skill">
+            <img src="images/SpringBoot.png" alt="SpringBoot" />
+            <p>Spring Boot</p>
+          </div>
+          <div class="skill">
+            <img src="images/Hibernate.png" alt="Hibernate" />
+            <p>Hibernate</p>
+          </div>
+          <div class="skill">
+            <img src="images/Maven.png" alt="Hibernate" />
+            <p>Apache Maven</p>
+          </div>
+          <div class="skill">
+            <img src="images/sql.png" alt="SQL" />
+            <p>SQL</p>
+          </div>
+          <div class="skill">
+            <img src="images/html.png" alt="HTML/CSS" />
+            <p>HTML/CSS</p>
+          </div>
+          <div class="skill">
+            <img src="images/js.png" alt="JavaScript" />
+            <p>JS</p>
+          </div>
+          <div class="skill">
+            <img src="images/react.png" alt="React" />
+            <p>React</p>
+          </div>
+          <div class="skill">
+            <img src="images/boot.png" alt="Bootstrap" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="skill">
+            <img src="images/figma.png" alt="Bootstrap" />
+            <p>Figma</p>
+          </div>
+          <div class="skill">
+            <img src="images/git.png" alt="GitBash" />
+            <p>GitBash</p>
+          </div>
+          <div class="skill">
+            <img src="images/github.png" alt="GitHub" />
+            <p>GitHub</p>
+          </div>
+          <div class="skill">
+            <img src="images/Eclipse.png" alt="Eclipse" />
+            <p>Eclipse IDE</p>
+          </div>
+          <div class="skill">
+            <img src="images/vscode.png" alt="vscode" />
+            <p>VS Code</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <!--Contacts-->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-cards">
+          <div class="card">
+            <img src="images/phone.gif" alt="Phone Icon" />
+            <h3>Phone</h3>
+            <p>
+              <a href="tel:7498698119" style="color: #555">+917498698119</a>
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/message.gif" alt="Email Icon" />
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:sj967334@gmail.com" style="color: #555"
+                >sj967334@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/google-maps.gif" alt="Address Icon" />
+            <h3>Address</h3>
+            <p>
+              <a
+                href="https://maps.app.goo.gl/CNWximc1wHitmsbH9"
+                style="color: #555"
+                target="_blank"
+                >Pune, Maharashtra, India</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <p>&copy; 2024 Narayan Jagtap. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a href="https://www.linkedin.com/in/narayanpjagtap/" target="_blank">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/narayanjagtap" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.youtube.com/@narayanpjagtap" target="_blank">
+            <i class="bx bxl-youtube"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/sumitpjagtap?igsh=MTFjbmludTUxNWtuZA=="
+            target="_blank"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://x.com/narayanpjagtap" target="_blank">
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
